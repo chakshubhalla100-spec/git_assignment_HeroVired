@@ -19,8 +19,8 @@ class Calculator:
         return a / b
 
     # Square root function
-    def square_root(self, x):
-        return math.sqrt(x)
+        def square_root(self, x):
+         return math.sqrt(x)
 
 
 if __name__ == "__main__":
