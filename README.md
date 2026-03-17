@@ -17,5 +17,34 @@ Push the changes to the main branch (git push via token generation)
 
 Question? version controlling how we identify it by creating multiple branches in github and push our local changes to that branch and then review and merge it ?? Please confirm 
 
+Question 3 
+
+Create 2 new branches 
+
+1 circlearea / rectangle area 
+
+enable the feature  for circle area and rectangle area
+
+git add .
+git stash 
+git status 
+
+switch branch to rectangle area 
+git checkout rectanglearea
+
+git add.
+git stash
+git status
+
+go back to circle area branch complete the changes 
+
+git commit -m "added circle area feature"
+git origin push circlearea
+
+switch back to rectangle area
+git commit -m "added rectangle area feature"
+git origin push rectanglearea
+
+login to git hub and create a pull request ..
 
 
